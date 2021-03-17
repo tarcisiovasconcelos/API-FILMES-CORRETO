@@ -63,19 +63,19 @@ public class Filme {
         this.sinopse = sinopse;
     }
 
-    public Ator getAtor() {
-        return ator;
-    }
-
-    public void setAtor(Ator ator) {
-        this.ator = ator;
-    }
-
     public Genero getGenero() {
         return genero;
     }
 
     public void setGenero(Genero genero) {
         this.genero = genero;
+    }
+
+    public List<Ator> getAtores() {
+        return atores;
+    }
+
+    public void setAtores(List<Ator> atores) {
+        this.atores = atores;
     }
 }
