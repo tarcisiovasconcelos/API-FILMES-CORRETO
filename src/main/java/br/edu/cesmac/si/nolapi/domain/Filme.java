@@ -2,6 +2,7 @@ package br.edu.cesmac.si.nolapi.domain;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 public class Filme {
@@ -14,7 +15,7 @@ public class Filme {
     private String sinopse;
 
     @OneToMany
-    private Ator ator;
+    private List<Ator> atores;
 
     @OneToOne
     private Genero genero;
